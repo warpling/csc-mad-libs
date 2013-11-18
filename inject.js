@@ -43,7 +43,7 @@
         // We'll need this for the facebook sharer
         var finishedMadLib = $('#madlib').text();
         // INITIATE THE SHARING!
-        $('.fbShare').attr("href", "http://www.facebook.com/sharer.php?s=100&p[title]=Hey guys&hellip;&p[url]=http://www.mysexyurl.com&p[summary]=" + finishedMadLib);
+        $('.fbShare').attr("href", "http://www.facebook.com/sharer.php?s=100&p[title]=Hey guys, I'm thinking of taking...&p[url]=http://warpling.github.io/csc-mad-libs/&p[summary]=" + finishedMadLib);
       }
 
     })()
